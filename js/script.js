@@ -224,7 +224,7 @@ $("input:radio[name=dayoftheweek]").change(function(){
 	    }//console.log(layer);
     });
 
-    //
+    // Getting the selected radio button ny number (day of the week 0-6)
     dotw = parseInt($('input:radio[name=dayoftheweek]:checked').val());
 
     // Reload points after the user chooses a new day
